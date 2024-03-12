@@ -1,0 +1,35 @@
+// index.module.scss
+
+.carousal {
+    width: auto;
+  }
+  
+  .slide {
+    // Styles for each slide in the carousel
+    margin-bottom: 20px;
+  
+    .image {
+      // Styles for the image container
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .title {
+      // Styles for the title of each slide
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .caption {
+      // Styles for the caption of each slide
+      font-size: 14px;
+      color: #666;
+    }
+  }
+  
+  .invert {
+   width: auto;
+
+  }
+  

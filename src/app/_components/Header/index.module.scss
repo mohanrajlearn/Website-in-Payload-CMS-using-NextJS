@@ -1,0 +1,25 @@
+@use '../../_css/queries.scss' as *;
+
+.header {
+  padding: var(--base) 0;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: calc(var(--base) / 2) var(--base);
+}
+
+.logo {
+  width: 150px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+:global([data-theme="light"]) {
+  .logo {
+    filter: invert(1);
+  }
+}
